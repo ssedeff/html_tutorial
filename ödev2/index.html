@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>quiz odev</title>
+</head>
+<body>
+    <h1>SEDEF SİRİN</h1>
+<form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+<fieldset>
+<legend>SEDEF SİRİN</legend>
+<label for="anahtar">Güvenlik Anahtarı:</label><input type="text" name="anahtar" id="anahtar" value="65498327659873" disabled><br><br>
+
+<label for="eposta">Eposta:</label><input type="email" name="eposta" id="eposta" required placeholder="Örn: sedef@gmail.com"><br><br>
+
+<label for="dogum">Doğum Tarihi:</label><input type="date" name="dogum" id="dogum" min="2000-01-01" max="2010-12-31"><br><br>
+
+<label for="sifre">Şifre:</label><input type="password" name="sifre" id="sifre" minlength="8" maxlength="8"><br><br>
+
+<select name="avatar" id="avatar">
+<option value="1">dory</option>
+<option value="2">nemo</option>
+<option value="3">moana</option>
+<option value="4">dory</option>
+</select>
+</fieldset>
+<button type="submit">KAYDET</button>
+<button type="reset"> Temizle</button>
+
+</body>
+</html>
